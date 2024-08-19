@@ -2,7 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import pluginReact from "eslint-plugin-react";
 import jest from "eslint-plugin-jest";
-import google from "eslint-config-google"
+
 
 
 export default [
@@ -23,5 +23,4 @@ export default [
 },
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
-  google.configs.recommended,
 ];
